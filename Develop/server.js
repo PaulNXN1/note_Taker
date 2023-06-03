@@ -17,7 +17,7 @@ app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/notes.html'));
 }); 
 
-
+// GET API/Notes route. Requirement for assignment 
 app.get('/api/notes', (req, res) => {
     fs.readFile(path.join(__dirname, '/db/db.json'), 'utf-8', (error,notes) =>{
         
@@ -30,6 +30,7 @@ app.get('/api/notes', (req, res) => {
 
 });
 
+// POST Portion for route path given
 
 app.post('/api/notes', (req, res) => {
     console.log(req.body);
@@ -50,19 +51,15 @@ app.post('/api/notes', (req, res) => {
 
 
 
-// Default to homepage
+// Default to homepage.  
+
 app.get('*', (req, res) => {
     console.log(__dirname);
     res.sendFile(path.join(__dirname, '/public/index.html'));
 }); 
 
 
-
-
-
-
-
-
+// Added this message to confirm application is running properly 
 
 app.listen(PORT, () => {
     console.log('It works!')}
