@@ -40,7 +40,7 @@ app.post('/api/notes', (req, res) => {
             res.json(error);
         } else {
             notes = JSON.parse(notes);
-            req.body.id = uuid(),
+           // req.body.id = uuid(),
             notes.push(req.body);
             fs.writeFile(path.join(__dirname, '/db/db.json'), JSON.stringify(notes), () => {
                 res.send('Neato');
@@ -59,7 +59,7 @@ app.get('*', (req, res) => {
 }); 
 
 
-// Added this message to confirm application is running properly 
+// Added this message to confirm application is running properly when running node server.js
 
 app.listen(PORT, () => {
     console.log('It works!')}
