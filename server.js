@@ -5,6 +5,8 @@ const path = require('path');
 const PORT = 4444;
 const fs = require('fs');
 
+// NPM installed for created unique ID
+
 const uniqid = require('uniqid');
 
 const app = express();
@@ -77,5 +79,5 @@ app.get('*', (req, res) => {
 // Added this message to confirm application is running properly when running node server.js
 
 app.listen(PORT, () => {
-    console.log('It works!')}
+    console.log('It works! Above is an example ID populated. \n http://localhost:4444')}
     );
