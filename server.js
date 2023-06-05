@@ -2,7 +2,7 @@
 
 const express = require('express');
 const path = require('path');
-const PORT = 4444;
+const PORT = process.env.PORT || 4444;
 const fs = require('fs');
 
 // NPM installed for created unique ID
