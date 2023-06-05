@@ -55,12 +55,9 @@ app.post('/api/notes', (req, res) => {
 });
 
 
+// Starting code to delete Notes 
 app.delete('/api/notes/:uniqid' , (req, res) => {
     console.log(req.params.uniqid);
-
-
-
-
 
 });
 

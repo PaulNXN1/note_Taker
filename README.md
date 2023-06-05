@@ -22,6 +22,8 @@ The assignment is complete when all aspects of the UPENN Module #3 Acceptance Cr
 
 URL to Deployed Project Site:
 
+URL to the GitHub Repository:  https://github.com/PaulNXN1/note_Taker 
+
 Below is an image example of the final project:
 
 
