@@ -5,6 +5,8 @@ const path = require('path');
 const PORT = 4444;
 const fs = require('fs');
 
+const uniqid = require('uniqid');
+
 const app = express();
 
 app.use(express.static('public'));
@@ -40,14 +42,30 @@ app.post('/api/notes', (req, res) => {
             res.json(error);
         } else {
             notes = JSON.parse(notes);
-           // req.body.id = uuid(),
+
+            // creates, return unique ID
+            req.body.id = uniqid();
+
             notes.push(req.body);
             fs.writeFile(path.join(__dirname, '/db/db.json'), JSON.stringify(notes), () => {
                 res.send('Neato');
             } )
         }
     } )
-})
+});
+
+
+app.delete('/api/notes/:uniqid' , (req, res) => {
+    console.log(req.params.uniqid);
+
+
+
+
+
+});
+
+// returning unique ID 
+console.log(uniqid());
 
 
 
