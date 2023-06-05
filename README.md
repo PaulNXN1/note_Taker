@@ -25,11 +25,12 @@ The user must be able to type AND save a text note on the web application.
 
 ## Deployment
 
-URL to Deployed Project Site:
+URL to Deployed Project Site:  https://note-taker-nixon.herokuapp.com/
 
 URL to the GitHub Repository:  https://github.com/PaulNXN1/note_Taker 
 
 Below is an image example of the final project:
+
 
 
 
