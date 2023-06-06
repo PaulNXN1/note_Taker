@@ -29,7 +29,9 @@ URL to Deployed Project Site:  https://note-taker-nixon.herokuapp.com/
 
 URL to the GitHub Repository:  https://github.com/PaulNXN1/note_Taker 
 
-Below is an image example of the final project:
+Below are two video examples of the final assignment application.
+The first video example demonstrates how to initiate the web applcation with node.js.
+The second video is the live example [localhost:4444].   
 
 
 
