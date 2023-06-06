@@ -36,3 +36,14 @@ The second video is the live example [localhost:4444].
 
 
 
+https://github.com/PaulNXN1/note_Taker/assets/84299358/6446af59-72a2-4b6d-b683-08eea5028cbb
+
+
+
+https://github.com/PaulNXN1/note_Taker/assets/84299358/98a2f5f8-7b2f-4ca1-81b0-433c4302e065
+
+
+
+
+
+
